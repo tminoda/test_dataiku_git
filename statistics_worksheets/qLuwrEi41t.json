@@ -668,17 +668,36 @@
           "type": "CONTINUOUS"
         },
         "id": "o4klFtk"
+      },
+      {
+        "type": "ttest_2samp",
+        "value1": [
+          "setosa"
+        ],
+        "value2": [
+          "versicolor"
+        ],
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "Sepal.Length",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Species",
+          "type": "CATEGORICAL"
+        },
+        "id": "B3nLIvS"
       }
     ],
     "id": "HoQOyJS"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585396593067
+    "lastModifiedOn": 1585396786261
   },
   "creationTag": {
     "versionNumber": 0,
