@@ -671,17 +671,27 @@
           "groupWithAll": true
         },
         "id": "CqGczbC"
+      },
+      {
+        "type": "ttest_ztest_1samp",
+        "hypothesizedMean": 0.5,
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "Sepal.Length",
+          "type": "CONTINUOUS"
+        },
+        "id": "o4klFtk"
       }
     ],
     "id": "HoQOyJS"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585389112213
+    "lastModifiedOn": 1585389193479
   },
   "creationTag": {
     "versionNumber": 0,
