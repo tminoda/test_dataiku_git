@@ -25,7 +25,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -34,7 +37,14 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Petal.Width": 100,
+    "col_0": 100,
+    "Sepal.Length": 105,
+    "Sepal.Width": 100,
+    "Species": 100,
+    "Petal.Length": 105
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
