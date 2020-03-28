@@ -410,7 +410,7 @@
           },
           {
             "name": "Sepal.Width",
-            "type": "CONTINUOUS"
+            "type": "CATEGORICAL"
           }
         ],
         "cards": [
@@ -540,22 +540,9 @@
             "type": "column_card",
             "column": {
               "name": "Sepal.Width",
-              "type": "CONTINUOUS"
+              "type": "CATEGORICAL"
             },
             "cards": [
-              {
-                "type": "scatter_plot",
-                "symbolSize": 4,
-                "xColumn": {
-                  "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
-                },
-                "yColumn": {
-                  "name": "Petal.Width",
-                  "type": "CONTINUOUS"
-                },
-                "id": "Y7SYRQn"
-              },
               {
                 "type": "bivariate_box_plot",
                 "maxValues": 5,
@@ -564,7 +551,7 @@
                 "customBinningBoundaries": [],
                 "xColumn": {
                   "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
+                  "type": "CATEGORICAL"
                 },
                 "yColumn": {
                   "name": "Petal.Width",
@@ -584,7 +571,7 @@
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
                   "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
+                  "type": "CATEGORICAL"
                 },
                 "yColumn": {
                   "name": "Petal.Width",
@@ -604,7 +591,7 @@
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
                   "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
+                  "type": "CATEGORICAL"
                 },
                 "yColumn": {
                   "name": "Petal.Width",
@@ -627,7 +614,7 @@
                 },
                 "xColumn": {
                   "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
+                  "type": "CATEGORICAL"
                 },
                 "yColumn": {
                   "name": "Petal.Width",
@@ -647,7 +634,7 @@
                 "yCustomBinningBoundaries": [],
                 "xColumn": {
                   "name": "Sepal.Width",
-                  "type": "CONTINUOUS"
+                  "type": "CATEGORICAL"
                 },
                 "yColumn": {
                   "name": "Petal.Width",
@@ -677,7 +664,7 @@
         "hypothesizedMean": 0.5,
         "confidenceLevel": 0.95,
         "column": {
-          "name": "Sepal.Length",
+          "name": "Sepal.Width",
           "type": "CONTINUOUS"
         },
         "id": "o4klFtk"
@@ -687,11 +674,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585389193479
+    "lastModifiedOn": 1585396593067
   },
   "creationTag": {
     "versionNumber": 0,
