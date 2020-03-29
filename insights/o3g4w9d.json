@@ -1,0 +1,73 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "ttest_2samp",
+      "value1": [
+        "setosa"
+      ],
+      "value2": [
+        "versicolor"
+      ],
+      "confidenceLevel": 0.95,
+      "xColumn": {
+        "name": "Sepal.Length",
+        "type": "CONTINUOUS"
+      },
+      "yColumn": {
+        "name": "Species",
+        "type": "CATEGORICAL"
+      },
+      "id": "R1J2Thb"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "iris",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Two-sample 𝘵-test",
+  "dashboardCreationId": "1cfGjXC",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585464953879
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585464953879
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

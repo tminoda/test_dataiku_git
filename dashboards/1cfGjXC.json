@@ -20,6 +20,23 @@
             "insightType": "eda",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 10,
+              "height": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "o3g4w9d",
+            "insightType": "eda",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -31,11 +48,11 @@
   "name": "v7_sample\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585464712316
+    "lastModifiedOn": 1585464953880
   },
   "creationTag": {
     "versionNumber": 0,
