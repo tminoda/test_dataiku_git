@@ -7,9 +7,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 5,
               "left": 0,
-              "width": 6,
+              "width": 11,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -25,9 +25,9 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 6,
+              "left": 5,
               "width": 6,
-              "height": 3
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -41,9 +41,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 5,
+              "top": 0,
               "left": 0,
-              "width": 10,
+              "width": 5,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -65,11 +65,11 @@
   "name": "v7_sample\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585465066678
+    "lastModifiedOn": 1585465125484
   },
   "creationTag": {
     "versionNumber": 0,
