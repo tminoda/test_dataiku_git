@@ -458,17 +458,45 @@
           "groupWithAll": true
         },
         "id": "d3YZbS0"
+      },
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "columns": [
+          {
+            "name": "Sepal.Length",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Sepal.Width",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Petal.Length",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Petal.Width",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "x86FkSv"
       }
     ],
     "id": "i1euDbp"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585463509051
+    "lastModifiedOn": 1585463732580
   },
   "creationTag": {
     "versionNumber": 0,
