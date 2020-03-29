@@ -446,6 +446,17 @@
             "type": "CONTINUOUS"
           }
         ],
+        "splitBy": {
+          "groupingColumn": {
+            "name": "Species",
+            "type": "CATEGORICAL"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": true,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
         "id": "d3YZbS0"
       }
     ],
@@ -453,11 +464,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585463421734
+    "lastModifiedOn": 1585463509051
   },
   "creationTag": {
     "versionNumber": 0,
