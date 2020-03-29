@@ -399,17 +399,36 @@
           "groupWithAll": true
         },
         "id": "agVfFEB"
+      },
+      {
+        "type": "ttest_2samp",
+        "value1": [
+          "setosa"
+        ],
+        "value2": [
+          "versicolor"
+        ],
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "Sepal.Length",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Species",
+          "type": "CATEGORICAL"
+        },
+        "id": "R1J2Thb"
       }
     ],
     "id": "i1euDbp"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585461277669
+    "lastModifiedOn": 1585462186510
   },
   "creationTag": {
     "versionNumber": 0,
