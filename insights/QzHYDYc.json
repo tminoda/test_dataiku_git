@@ -1,0 +1,82 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "pca",
+      "heatmapParams": {
+        "showValues": true,
+        "showColors": true,
+        "showAbsValues": false,
+        "threshold": 0.0
+      },
+      "columns": [
+        {
+          "name": "Sepal.Length",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "Sepal.Width",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "Petal.Length",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "Petal.Width",
+          "type": "CONTINUOUS"
+        }
+      ],
+      "id": "x86FkSv"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "iris",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "PCA on 4 variables ",
+  "dashboardCreationId": "1cfGjXC",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585464992478
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585464992478
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
