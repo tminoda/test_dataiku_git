@@ -424,7 +424,7 @@
         "heatmapParams": {
           "showValues": true,
           "showColors": true,
-          "showAbsValues": false,
+          "showAbsValues": true,
           "threshold": 0.0
         },
         "metric": "SPEARMAN",
@@ -453,11 +453,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585463185203
+    "lastModifiedOn": 1585463421734
   },
   "creationTag": {
     "versionNumber": 0,
